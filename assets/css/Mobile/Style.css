@@ -1,0 +1,52 @@
+@media  (Max-width: 850px) {
+   section{
+    padding: 3rem;
+   }
+
+   .download{
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .computer{
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .computer img{
+    position: static;
+    width: 100%;
+    max-width: 55rem;
+   }
+
+   .text-computer{
+    text-align: center;
+   }
+
+   .snippets-itens{
+    flex-direction: column;
+   }
+
+   .enterprises{
+    margin-top: 10rem;
+   }
+   .center-enterprise{
+    flex-direction: column;
+    gap: 10rem;
+  }
+  .clipboard-section{
+    margin-top: 10rem;
+  }
+
+  .center-footer{
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .footer .list{
+   gap: 1rem;
+   flex-direction: column;
+   margin: 0 auto;
+   text-align: center;
+  }
+}

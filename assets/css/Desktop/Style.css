@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+  --Font-Weight-600: 600;
+  --Font-Weight-400: 400;
+}
+
+body {
+  background-color: white;
+  position: relative;
+}
+
+.header {
+  height: 30rem;
+  width: 100%;
+  background-image: url(../../images/bg-header-desktop.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.header .logo {
+  width: 15rem;
+  height: 15rem;
+  background-image: url(../../images/logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main{
+  padding: 3rem;
+}
+.introduction{
+  margin-bottom: 20rem;
+}
+.title-description{
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.title-description h1{
+  font-size: 3rem;
+  font-weight: var(--Font-Weight-600);
+  color: var(--Dark-Grayish-Blue);
+  margin-bottom: 3rem;
+}
+
+.title-description p{
+  font-size: 1.8rem;
+  font-weight: var(--Font-Weight-400);
+  color: var(--Grayish-Blue);
+  margin-bottom: 3rem;
+}
+.download{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  
+}
+.download button{
+  font-size: 1.5rem;
+  font-weight: var(--Font-Weight-600);
+  cursor: pointer;
+  padding: 1.5rem 3rem;
+  border-radius: 5rem;
+  color: white;
+  width: 100%;
+  max-width: 30rem;
+}
+
+
+.download .ios{
+  background-color: var(--Strong-Cyan);
+  border-color: var(--Strong-Cyan);
+}
+.download .mac{
+  background-color: var(--Light-Blue);
+  border-color: var(--Light-Blue);
+}
+
+.computer{
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.computer img{
+  width: 50%;
+  position: relative;
+  left: -4rem;
+}
+.text-computer{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 100%;
+  max-width: 40rem;
+}
+.single-text h1{
+  font-size: 3rem;
+  font-weight: var(--Font-Weight-600);
+  color: var(--Dark-Grayish-Blue);
+}
+
+.single-text p{
+  font-size: 1.8rem;
+  font-weight: var(--Font-Weight-400);
+  color: var(--Grayish-Blue);
+  
+}
+.second-device{
+  margin-top: 20rem;
+}
+.mobile{
+  margin-top: 7rem;
+  text-align: center; 
+}
+.mobile img{
+  width: 100%;
+  max-width: 120rem; 
+}
+
+.snippets{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.snippets-itens{
+  max-width: 120rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.snippets-itens .item{
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+}
+.item h1{
+  font-size: 3rem;
+  color: var(--Dark-Grayish-Blue);
+  font-weight: var(--Font-Weight-600);
+}
+
+.item p{
+  font-size: 1.8rem;
+  font-weight: var(--Font-Weight-400);
+  color: var(--Grayish-Blue);
+}
+.center-enterprise{
+  width: 100%;
+  max-width: 120rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.enterprises{
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+.clipboard-section{
+  margin-top: 20rem;
+}
+
+.footer{
+  padding: 3rem;
+  margin-top: 20rem;
+  background-color: #f5f6f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-footer{
+  width: 100%;
+  max-width: 120rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+.footer .logo{
+  height: 5rem;
+  width: 5rem;
+}
+.footer .list{
+  margin-right: auto;
+  display: flex;
+  font-size: 1.8rem;
+  gap: 10rem;
+}
+
+.list li{
+  line-height: 4rem;
+  list-style: none;
+}
+.footer .list a{
+  text-decoration: none;
+  font-weight: var(--Font-Weight-400);
+  color: var(--Dark-Grayish-Blue);
+}
+
+.footer .list a:hover{
+  color: var(--Strong-Cyan);
+}
+
+.social{
+  display: flex;
+  gap: 3rem;
+}
+.footer .social a:hover path{
+  fill: var(--Strong-Cyan);
+}
+
+.attribution {
+  position: relative;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: orange;
+}
+
+
+
+
