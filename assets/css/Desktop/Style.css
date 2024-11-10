@@ -54,11 +54,16 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+
+
 .title-description h1{
   font-size: 3rem;
   font-weight: var(--Font-Weight-600);
   color: var(--Dark-Grayish-Blue);
   margin-bottom: 3rem;
+}
+.title-description.first-title h1{
+  font-size: 5rem;
 }
 
 .title-description p{
